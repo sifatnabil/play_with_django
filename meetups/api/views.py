@@ -1,5 +1,4 @@
 from rest_framework.decorators import api_view, permission_classes
-# from rest_framework.
 from rest_framework.response import Response
 from meetups.models import Meetup
 from .serializers import MeetupSerializer, RegistrationSerializer
